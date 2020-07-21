@@ -1,2 +1,2 @@
-# ss-d4zn-t3ch-t3st
+# My Version of the Tech Test
 My version of taking the tech test given to applicants
