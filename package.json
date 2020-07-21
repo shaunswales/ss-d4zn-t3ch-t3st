@@ -11,6 +11,7 @@
   },
   "main": "",
   "scripts": {
+    "clean": "find ./ -name 'node_modules' -exec rm -rf '{}' +",
     "lint": "eslint 'src/**/*.js'",
     "lint:fix": "yarn lint --fix",
     "test": "yarn -p test:frontend test:backend test:performance",
