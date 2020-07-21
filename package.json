@@ -1,0 +1,42 @@
+{
+  "name": "my-d4zn-tech-test",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "My version of the tech test.",
+  "author": "Swales Consultancy <info@swalesconsultancy.co.uk>",
+  "homepage": "https://github.com/shaunswales/ss-d4zn-t3ch-t3st#readme",
+  "bugs": "https://github.com/shaunswales/ss-d4zn-t3ch-t3st/issues",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "main": "",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "lint:fix": "yarn lint --fix",
+    "test": "yarn -p test:frontend test:backend test:performance",
+    "test:frontend": "yarn workspace frontend-test-suite test:ci",
+    "test:backend": "yarn workspace backend-test-suite test",
+    "test:performance": "yarn workspace performance-test-suite test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunswales/ss-d4zn-t3ch-t3st.git"
+  },
+  "keywords": [
+    "tech",
+    "test"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "husky": "^4.2.5"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
+  }
+}

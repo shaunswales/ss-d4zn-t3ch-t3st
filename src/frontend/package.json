@@ -1,0 +1,14 @@
+{
+  "name": "frontend-test-suite",
+  "description": "Suite of Frontend tests for the Weather Checker App.",
+  "version": "1.0.0",
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run",
+    "test:gha": "cypress run --headless"
+  },
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+# Directories
+*node_modules
+*.vs_code
+
+# Files
+*DS_Store
