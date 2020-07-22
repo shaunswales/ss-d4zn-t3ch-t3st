@@ -3,13 +3,13 @@
     "title": "h2"
   },
   "search": {
-    "input": "form input[name='address' type='text']",
+    "input": "form input[name='address']",
     "button": "form button"
   },
   "results": {
     "title": "table caption",
     "table": {
-      "wrapper": "table tbody tr",
+      "wrapper": "table tbody tr ",
       "tableItemName": "th",
       "tableItemValue": "td"
     }

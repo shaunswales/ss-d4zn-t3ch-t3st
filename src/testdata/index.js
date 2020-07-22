@@ -1,3 +1,20 @@
+export const resultsTableItems = [
+  [ 1, 'Time'],
+  [ 2, 'Summary'],
+  [ 3, 'Icon'],
+  [ 4, 'Nearest Storm Distance'],
+  [ 5, 'Precip Intensity'],
+  [ 6, 'Precip Intensity Error'],
+  [ 7, 'Precip Probability'],
+  [ 8, 'Precip Type'],
+  [ 9, 'Temperature'],
+  [ 10, 'Apparent Temperature'],
+  [ 11, 'Dew Point'],
+  [ 12, 'Humidity'],
+  [ 13, 'Pressure'],
+  [ 14, 'Wind Speed'],
+];
+
 export const invalidData = [
   ['invalid address', 'HD4 6LB', 435, 'Invalid Address'],
   ['invalid format', 'shaunswales', 435, 'Invalid Address'],
