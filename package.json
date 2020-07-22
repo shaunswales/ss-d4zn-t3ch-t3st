@@ -36,10 +36,5 @@
   },
   "workspaces": [
     "src/*"
-  ],
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn lint"
-    }
-  }
+  ]
 }
