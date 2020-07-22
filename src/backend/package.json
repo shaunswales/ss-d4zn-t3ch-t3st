@@ -13,5 +13,20 @@
     "axios": "^0.19.2",
     "babel-jest": "^26.1.0",
     "jest": "^26.1.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "rootDir": "./",
+    "testRegex": ".spec.js$",
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>config/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
