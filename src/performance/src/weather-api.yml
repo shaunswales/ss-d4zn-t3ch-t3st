@@ -23,4 +23,4 @@ scenarios:
           json: 
             address: 'W6 ONW'
           capture:
-            json: "$.latitude"
+            json: "$.data.latitude"
