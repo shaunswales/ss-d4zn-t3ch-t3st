@@ -1,6 +1,8 @@
 module.exports = {
   env: {
     browser: true,
+    amd: true,
+    node: true,
     es2020: true,
     'cypress/globals': true,
   },
@@ -10,11 +12,5 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: 'module',
   },
-  rules: {
-    'cypress/no-assigning-return-values': 'error',
-    'cypress/no-unnecessary-waiting': 'error',
-    'cypress/assertion-before-screenshot': 'warn',
-    'cypress/no-force': 'warn',
-    'cypress/no-async-tests': 'error',
-  },
+  rules: {},
 };
