@@ -31,7 +31,8 @@
   "devDependencies": {
     "eslint": "^7.5.0",
     "eslint-plugin-cypress": "^2.11.1",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "moment": "^2.27.0"
   },
   "workspaces": [
     "src/*"
