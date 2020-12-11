@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "h2"
+  },
+  "search": {
+    "input": "form input[name='address']",
+    "button": "form button"
+  },
+  "results": {
+    "title": "table caption",
+    "table": {
+      "wrapper": "table tbody tr ",
+      "tableItemName": "th",
+      "tableItemValue": "td"
+    }
+  },
+  "error": {
+    "text": "h1"
+  }
+}

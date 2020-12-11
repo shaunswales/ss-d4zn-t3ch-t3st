@@ -1,0 +1,32 @@
+{
+  "header": {
+    "title": "Weather Checker"
+  },
+  "search": {
+    "input": "Enter postcode",
+    "button": "Search"
+  },
+  "results": {
+    "title": "Weather details",
+    "table": {
+      "time": "Time:",
+      "summary": "Summary:",
+      "icon": "Icon:",
+      "nearestStormDistance": "Nearest Storm Distance:",
+      "precipIntensity": "Precip Intensity:",
+      "precipIntensityError": "Precip Intensity Error:",
+      "precipProbability": "Precip Probability:",
+      "precipType": "Precip Type:",
+      "termperature": "Temperature:",
+      "apparentTemperature": "Apparent Temperature:",
+      "dewPoint": "Dew Point:",
+      "hunidity": "Humidity:",
+      "pressure": "Pressure:",
+      "windSpeed": "Wind Speed:"
+    }
+  },
+  "error": {
+    "invalid": "Invalid postcode.",
+    "unableToFind": "Unable to find the postcode."
+  }
+}

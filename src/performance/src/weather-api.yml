@@ -1,0 +1,26 @@
+config:
+  target: 'https://fierce-gorge-81903.herokuapp.com'
+  ensure:
+    maxErrorRate: 1
+  phases:
+    - duration: 10
+      arrivalRate: 1
+      rampTo: 3
+      name: 'Warm Up'
+    - duration: 60
+      arrivalRate: 4
+      rampTo: 7
+      name: 'Lets Go'
+  defaults:
+    headers:
+      Content-Type: application/json
+
+scenarios:
+  - name: 'Search Successful Postcode'
+    flow:
+      - post:
+          url: '/api'
+          json: 
+            address: 'W6 ONW'
+          capture:
+            json: "$.data.latitude"

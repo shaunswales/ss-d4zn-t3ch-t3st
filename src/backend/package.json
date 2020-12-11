@@ -1,0 +1,33 @@
+{
+  "name": "backend-test-suite",
+  "description": "Suite of Backend (API) tests for the Weather Checker App.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {},
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "axios": "^0.19.2",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "rootDir": "./",
+    "testRegex": ".spec.js$",
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>config/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testTimeout": 10000
+  }
+}

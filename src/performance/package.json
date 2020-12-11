@@ -1,0 +1,13 @@
+{
+  "name": "performance-test-suite",
+  "description": "Suite of Performance tests for the Weather Checker App.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "artillery run src/weather-api.yml"
+  },
+  "dependencies": {},
+  "license": "ISC",
+  "devDependencies": {
+    "artillery": "^1.6.1"
+  }
+}

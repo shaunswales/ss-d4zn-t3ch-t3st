@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://serene-mountain-14043.herokuapp.com/",
+  "numTestsKeptInMemory": 4,
+  "viewportWidth": 1440,
+  "viewportHeight": 800,
+  "testFiles": "**/*.spec.*",
+  "pluginsFile": "src/plugins/index.js",
+  "supportFile": "src/support/index.js",
+  "fixturesFolder": "src/fixtures",
+  "integrationFolder": "src/integration",
+  "screenshotsFolder": "src/screenshots",
+  "videosFolder": "src/videos",
+  "experimentalShadowDomSupport": true,
+  "trashAssetsBeforeRuns": true
+}
